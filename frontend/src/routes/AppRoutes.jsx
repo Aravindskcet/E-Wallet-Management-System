@@ -8,7 +8,7 @@ import Transfer from "../pages/Transfer";
 import History from "../pages/History";
 import Admin from "../pages/Admin";
 
-export default function AppRoutes() {
+function AppRoutes() {
   return (
     <Routes>
       <Route path="/" element={<Login />} />
@@ -21,3 +21,5 @@ export default function AppRoutes() {
     </Routes>
   );
 }
+
+export default AppRoutes;
